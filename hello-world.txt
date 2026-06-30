@@ -1,0 +1,2 @@
+This is hello-world.txt
+A file edited with VSCode by the `code .` command
