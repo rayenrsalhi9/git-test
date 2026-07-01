@@ -1,0 +1,33 @@
+Q:  Create a new repo on GitHub?
+A:  On the left sidebar, click the green button "New repository" and set up your new repo as desired, then submit
+
+Q:  Copy a repo onto local from GitHub?
+A:  git clone git@github.com:user-name/repo-name.git
+
+Q:  Default name of your remote connection?
+A:  origin
+
+Q:  What `origin` is in `git push origin main`
+A:  It is the alias of the github repo URL so we do not have to type it everytime
+
+Q:  What `main` is in `git push origin main`
+A:  It is the branch name on the local machine
+
+Q:  Explain the two-stage system that Git uses to save files.
+A:  stage 1: git add, where files are added to the staging area and prepared for the next commit
+stage 2: git commit, where files are permanently saved in the local database
+
+Q:  How do you check the status of your current repository?
+A:  using the `git status` command
+
+Q:  How do you add files to the staging area in Git?
+A:  `git add <file>` or `git add .`
+
+Q:  How do you commit the files in the staging area and add a descriptive message?
+A:  `git commit -m "message-here"`
+
+Q:  How do you push your changes to your repository on GitHub?
+A:  `git push` or more explicitly `git push origin main`
+
+Q:  How do you look at the history of your previous commits?
+A:  `git log`
